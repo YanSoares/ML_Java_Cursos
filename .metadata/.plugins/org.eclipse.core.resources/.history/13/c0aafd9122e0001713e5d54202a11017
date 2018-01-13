@@ -1,0 +1,193 @@
+/*
+Vamos trabalhar com estas métricas, Precisión e Exhaustividad
+No caso da Precisión, P@1 (Para 1), P@3 (Para 3) e P@5 (Para 5).
+No caso da Exhaustividad so Para 5, ao ser 5 as escolhas dos alunos (E@5).
+https://es.wikipedia.org/wiki/Precisi%C3%B3n_y_exhaustividad
+Também F1 mas só para P@5 e E@5.
+Das métricas de Ranking, vamos usar nDCG, Rankscore(RS) e Average Precision(AP). 
+Também tem Liftindex (LI), mas não vamos usar não, salvo você quera programar ela sim. 
+Sería bom na hora de você falar delas mencionar todas. De formar geral os resultados devem ser:
+
+RS < LI < nDCG
+
+No caso de Average Precision da muito valor as boass recomendações nas primeiras posições e sempre dará valores entre 0 e 1.
+Para as métricas de Ranking vamos calcular elas para @3 e para @5.
+No final vamos ter:
+*P@1, P@3, P@5,P1EM5,P3em5, R@5, F1, AP@5
+*RS@3, RS@5, nDCG@3, nDCG@5, LI@3, LI@5, AP@3
+*
+*0 = P@1
+*1 = P@3
+*2 = P@5
+*3 = P1EM5
+*4 = P3EM5
+*5 = RECALL
+*6 = F1
+*7 = AP@5
+*/
+
+package br.com.yrsoares.analises;
+
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+
+public class Analise {
+
+	public double P1 = 0.0, P3 = 0.0, P5 = 0.0;
+	public double P1em5 = 0.0, P3em5 = 0.0;
+	public double recall = 0.0;
+	public double f1 = 0.0;
+	public double ap3 = 0.0, ap5 = 0.0;
+
+	ArrayList<Double> resultadoAnalise = new ArrayList<Double>();
+
+	public ArrayList<Double> analiseDados(ArrayList<Integer> cursosUsuario, ArrayList<Integer> cursosSistema,
+			int usuario) throws FileNotFoundException {
+
+		// precisao (P@1, P@3 e P@5, P1em5, P3em5)
+		precisao(cursosUsuario, cursosSistema);
+
+		// revocacao (recall) R@5
+		revocacao(cursosUsuario, cursosSistema);
+
+		// calcula F1
+		f1();
+		resultadoAnalise.add(6, f1);
+
+		// calcula AP@3, AP@5
+		precisaoMedia(cursosUsuario, cursosSistema);
+
+		return resultadoAnalise;
+	}
+
+	public void f1() {
+		if (P5 == 0.0 && recall == 0) {
+			f1 = 0;
+		} else {
+			f1 = (2 * P5 * recall) / (P5 + recall);
+		}
+	}
+
+	/*
+	private void precisaoMedia(ArrayList<Integer> cursosUsuario, ArrayList<Integer> cursosSistema) {
+		ArrayList<Double> listaPosicoes = new ArrayList<Double>();
+		double somatoriaAp5 = 0.0;
+
+		
+		// AP@3
+		if (cursosUsuario.size() != 0) {
+			for (int i = 0; i < 5; i++) {
+				if (cursosUsuario.contains(cursosSistema.get(i))) {
+					listaPosicoes.add((double) (i + 1));
+				}
+			}
+
+			for (int i = 0; i < listaPosicoes.size(); i++) {
+				somatoriaAp5 = somatoriaAp5 + ((i + 1) / listaPosicoes.get(0));
+			}
+			ap5 = (1.0 / listaPosicoes.size()) * somatoriaAp5;
+			System.out.println(ap5);
+		}
+		
+		
+		// AP@5
+		if (cursosUsuario.size() != 0) {
+			for (int i = 0; i < 5; i++) {
+				if (cursosUsuario.contains(cursosSistema.get(i))) {
+					listaPosicoes.add((double) (i + 1));
+				}
+			}
+
+			for (int i = 0; i < listaPosicoes.size(); i++) {
+				somatoriaAp5 = somatoriaAp5 + ((i + 1) / listaPosicoes.get(0));
+			}
+
+			if (somatoriaAp5 == 0) {
+				ap5 = 0.0;
+			} else {
+				ap5 = (1.0 / listaPosicoes.size()) * somatoriaAp5;
+			}
+			resultadoAnalise.add(7, ap5);
+		}
+
+	}
+*/
+	private void precisao(ArrayList<Integer> cursosUsuario, ArrayList<Integer> cursosSistema) {
+
+		double contp3 = 0.0, contp5 = 0.0, contp3em5 = 0.0;
+
+		// calcula P@1
+		if (cursosUsuario.size() != 0) {			
+			if ((int)cursosUsuario.get(0) == (int) cursosSistema.get(0)) {
+				P1 = 1.0;
+			}
+			resultadoAnalise.add(0, P1);
+		}
+
+		// calcula P@3
+		if (cursosUsuario.size() != 0) {
+			for (int i = 0; i < 3; i++) {
+				if (cursosUsuario.subList(0, 3).contains(cursosSistema.get(i))) {
+					contp3++;
+				}
+			}
+			P3 = contp3 / 3.0;
+			resultadoAnalise.add(1, P3);
+		}
+
+		// calcula P@5
+		if (cursosUsuario.size() != 0) {
+			for (int i = 0; i < cursosSistema.size(); i++) {
+				if (cursosUsuario.contains(cursosSistema.get(i))) {
+					contp5++;
+				}
+			}
+			P5 = contp5 / cursosSistema.size();
+			resultadoAnalise.add(2, P5);
+		}
+
+		// calcula P1em5
+		if (cursosUsuario.size() != 0) {
+			if (cursosUsuario.contains(cursosSistema.get(0))) {
+				P1em5 = 1.0;
+			}
+			resultadoAnalise.add(3, P1em5);
+		}
+
+		// calculaP3em5
+		if (cursosUsuario.size() != 0) {
+			for (int i = 0; i < 3; i++) {
+				if (cursosUsuario.contains(cursosSistema.get(i))) {
+					contp3em5++;
+				}
+			}
+			P3em5 = contp3em5 / 3.0;
+			resultadoAnalise.add(4, P3em5);
+		}
+	}
+
+	private void revocacao(ArrayList<Integer> cursosUsuario, ArrayList<Integer> cursosSistema) {
+		int contigual = 0, contdiferente = 0;
+		double tamCursosUsuario = cursosUsuario.size();
+
+		if (cursosUsuario.size() == 5) {
+			for (int i = 0; i < cursosSistema.size(); i++) {
+				if (cursosUsuario.contains(cursosSistema.get(i))) {
+					contigual++;
+				}
+			}
+			recall = contigual / cursosSistema.size();
+		}
+
+		if (cursosUsuario.size() != 5) {
+			for (int i = 0; i < cursosSistema.size(); i++) {
+				if (cursosUsuario.contains(cursosSistema.get(i))) {
+					contdiferente++;
+				}
+			}
+			recall = contdiferente / tamCursosUsuario;
+
+		}
+		resultadoAnalise.add(5, recall);
+	}
+}

@@ -1,0 +1,42 @@
+package br.com.yrsoares.modelos;
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.util.Scanner;
+
+public class Cursos {
+
+	public int id;
+	public String nome;
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String NomeCursos(int id) throws FileNotFoundException {
+		Scanner in = new Scanner(new FileReader("src/main/resources/cursos_geral.csv"));
+		Integer i = id;
+		while (in.hasNextLine()) {
+			String line = in.nextLine();
+			String split[] = line.split(";");
+			if (split[0].equals(i.toString())) {
+				in.close();
+				return split[1];
+			}
+		}
+		in.close();
+		return null;
+	}
+}

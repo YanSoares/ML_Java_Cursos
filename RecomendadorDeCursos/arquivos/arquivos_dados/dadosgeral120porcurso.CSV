@@ -1,0 +1,120 @@
+1;23;Masculino;de 2 a 3 salários mínimos;;;Ensino Médio Completo;;Matemática;41;42;76;69;85;80;90;95;81;79;95;88;98;85;94;87
+2;17;Feminino;de 1 a 2 salários mínimos;;;Não sei informar;;Português;85;88;106;97;101;;100;70;80;90;90;80;80;100;100;80
+3;18;Feminino;menos de 1 salário mínimo;;;Ensino Fundamental Completo;;História;73;16;100;97;30;70;60;80;90;80;90;90;100;100;90;80
+4;18;Feminino;de 1 a 2 salários mínimos;Ensino Médio Completo;;Ensino Médio Completo;;Biologia;85;17;20;27;106;100;90;60;100;90;80;70;80;100;100;100
+5;18;Feminino;de 1 a 2 salários mínimos;Ensino Médio Completo;;Ensino Médio Completo;;Química;74;75;118;97;27;70;70;70;90;80;100;80;80;70;70;70
+6;18;Feminino;menos de 1 salário mínimo;Ensino Médio Completo;;Ensino Superior Completo;104;Português;88;103;26;97;7;75;80;60;60;70;80;100;70;60;80;90
+7;20;Masculino;de 1 a 2 salários mínimos;Ensino Fundamental Completo;;Ensino Fundamental Completo;;20;20;83;60;68;;70;80;80;80;70;80;70;70;80;90;80
+8;17;Masculino;de 2 a 3 salários mínimos;;;Ensino Médio Completo;;Matemática;69;41;93;96;97;65;65;99;80;95;100;95;100;75;100;100
+9;18;Feminino;de 1 a 2 salários mínimos;Ensino Médio Completo;;Ensino Médio Completo;;Português;106;85;20;19;;88;90;90;100;70;70;80;90;70;100;80
+10;18;Masculino;menos de 1 salário mínimo;;;Ensino Superior Completo;94;Português;27;60;76;26;20;60;60;60;60;60;80;70;70;80;80;70
+11;20;Masculino;de 2 a 3 salários mínimos;Ensino Fundamental Completo;;Ensino Superior Completo;104;História;97;104;17;;;80;60;70;60;70;100;80;90;100;100;100
+12;16;Feminino;menos de 1 salário mínimo;Ensino Médio Completo;;Ensino Fundamental Completo;;Biologia;26;11;104;106;17;83;75;100;80;80;100;86;95;94;80;100
+13;17;Masculino;mais de 3 salários mínimos;Ensino Médio Completo;77;Ensino Médio Completo;;História;85;93;118;68;;80;58;78;68;70;96;80;89;70;80;94
+14;17;Feminino;de 1 a 2 salários mínimos;;;;;Matemática;83;27;85;77;;70;80;90;86;88;79;90;80;84;80;90
+15;17;Feminino;de 1 a 2 salários mínimos;Ensino Médio Completo;;Ensino Médio Completo;;História;26;19;97;66;27;80;100;90;70;65;100;70;100;100;100;40
+16;17;Feminino;menos de 1 salário mínimo;Ensino Médio Completo;;Ensino Médio Completo;;Química;42;30;75;88;101;85;80;85;98;80;80;90;90;70;100;100
+17;19;Feminino;de 2 a 3 salários mínimos;Ensino Fundamental Completo;;Ensino Superior Completo;94;Português;21;33;22;19;83;90;70;80;70;70;80;80;70;90;90;90
+18;18;Feminino;menos de 1 salário mínimo;Ensino Médio Completo;;Ensino Fundamental Completo;;Biologia;27;26;106;21;;90;83;80;82;87;87;87;93;78;85;80
+19;16;Feminino;menos de 1 salário mínimo;Ensino Médio Completo;;Ensino Médio Completo;;Matemática;77;47;83;92;106;89;88;98;84;85;85;93;96;85;86;90
+20;18;Feminino;menos de 1 salário mínimo;Ensino Superior Completo;41;Ensino Superior Completo;94;Matemática;77;76;27;83;17;100;90;100;90;80;100;100;100;100;90;80
+21;18;Masculino;de 1 a 2 salários mínimos;Ensino Médio Completo;;Ensino Superior Completo;104;Matemática;4;23;106;53;69;80;80;80;70;80;100;80;80;90;90;80
+22;21;Feminino;de 1 a 2 salários mínimos;Ensino Médio Completo;;Ensino Médio Completo;;Biologia;22;25;18;88;83;75;85;60;90;95;80;83;78;78;83;82
+23;21;Masculino;menos de 1 Salário Mínimo;;;Ensino Superior Completo;104;Química;20;85;27;17;83;80;80;70;90;90;90;80;70;70;90;90
+24;21;Masculino;menos de 1 salário mínimo;;;;;Química;30;17;47;74;27;70;80;63;73;85;;65;63;75;80;90
+25;18;Masculino;de 2 a 3 salários mínimos;Ensino Fundamental Completo;;Ensino Médio Completo;;História;23;41;99;42;;60;70;80;60;90;;90;100;70;70;80
+26;17;Feminino;mais de 3 salários mínimos;Ensino Superior Completo;55;Ensino Superior Completo;22;História;43;44;42;47;21;73;69;65;71;70;99;75;80;72;100;85
+27;17;Feminino;mais de 3 salários mínimos;Ensino Médio Completo;;Ensino Superior Completo;83;História;97;97;85;77;27;70;60;60;60;60;68;85;90;98;100;90
+28;17;Masculino;mais de 3 salários mínimos;Ensino Superior Completo;55;Ensino Superior Completo;92;Matemática;55;65;27;;;70;75;68;75;60;90;70;75;66;70;70
+29;17;Masculino;mais de 3 salários mínimos;Ensino Superior Completo;55;Ensino Médio Completo;;Matemática;55;83;66;;;50;60;70;60;45;85;65;60;50;70;80
+30;18;Masculino;mais de 3 salários mínimos;Ensino Médio Completo;;Ensino Fundamental Completo;;Matemática;44;41;65;;;65;70;75;60;50;80;70;65;65;75;80
+31;17;Feminino;;;;Ensino Médio Completo;;Português;25;27;85;22;;85;65;60;75;70;100;80;80;75;95;100
+32;17;Masculino;mais de 3 salários mínimos;Ensino Superior Completo;97;Ensino Superior Completo;83;Química;85;83;93;97;92;85;74;75;90;82;80;80;82;75;85;75
+33;18;Masculino;mais de 3 salários mínimos;Ensino Médio Completo;;Ensino Superior Completo;68;Biologia;85;17;27;92;;80;70;70;80;80;90;70;80;90;90;70
+34;18;Masculino;de 2 a 3 salários mínimos;Ensino Superior Completo;;Ensino Superior Completo;103;Matemática;60;76;52;32;;70;80;85;80;65;90;65;70;80;90;80
+35;17;Masculino;;Ensino Médio Completo;60;Ensino Médio Completo;;História;101;97;105;103;;70;60;70;80;80;100;90;80;90;100;90
+36;17;Feminino;mais de 3 salários mínimos;Ensino Superior Completo;66;Ensino Superior Completo;23;Química;27;85;17;;;90;74;78;90;93;75;83;87;90;95;95
+37;17;Feminino;mais de 3 salários mínimos;Ensino Superior Completo;17;Ensino Médio Completo;;Biologia;21;26;25;17;27;85;75;75;80;85;100;80;80;85;90;80
+38;17;Masculino;mais de 3 salários mínimos;Ensino Superior Completo;47;Ensino Superior Completo;97;105;66;75;42;;;50;40;50;60;50;80;60;60;50;70;70
+39;18;Feminino;mais de 3 salários mínimos;Ensino Superior Completo;83;Ensino Superior Completo;22;Português;27;85;21;106;22;70;70;70;70;80;70;60;70;90;60;80
+40;17;Masculino;de 1 a 2 salários mínimos;;;Ensino Médio Completo;;Química;76;83;92;55;;92;90;100;80;80;90;90;90;80;60;90
+41;18;Feminino;mais de 3 salários mínimos;Ensino Médio Completo;;Ensino Médio Completo;;Português;21;85;83;17;41;85;80;100;75;97;93;100;90;80;60;80
+42;17;Masculino;de 1 a 2 salários mínimos;;;Ensino Médio Completo;;Matemática;53;42;64;41;;72;76;90;80;68;90;76;95;95;62;96
+43;18;Masculino;menos de 1 salário mínimo;;;;;20;83;53;103;118;;65;50;68;63;65;70;25;75;63;63;60
+44;20;Feminino;de 1 a 2 salários mínimos;Ensino Fundamental Completo;;Ensino Fundamental Completo;;História;106;97;118;;;71;70;71;52;57;64;81;78;82;71;78
+45;17;Masculino;de 1 a 2 salários mínimos;Ensino Médio Completo;;Ensino Superior Completo;83;20;20;68;83;41;33;80;80;90;70;80;90;70;100;90;60;70
+46;17;Feminino;menos de 1 salário mínimo;Ensino Médio Completo;;Ensino Médio Completo;;Geografia;32;33;27;;;80;70;70;55;70;60;80;90;90;45;90
+47;18;Feminino;de 2 a 3 salários mínimos;Ensino Médio Completo;;Ensino Médio Completo;;Biologia;73;17;23;;;84;63;66;60;70;80;74;81;65;60;86
+48;22;Feminino;de 2 a 3 salários mínimos;Ensino Médio Completo;;Ensino Médio Completo;;Geografia;22;18;26;;;90;83;86;63;69;90;95;79;78;63;90
+49;17;Masculino;de 2 a 3 salários mínimos;Ensino Médio Completo;;Ensino Médio Completo;;Matemática;42;60;20;;;74;53;78;63;73;76;82;86;81;66;71
+50;18;Feminino;de 2 a 3 salários mínimos;Ensino Médio Completo;;Ensino Médio Completo;;História;47;114;77;97;;100;88;87;80;90;;100;83;73;65;90
+51;17;Masculino;de 2 a 3 salários mínimos;Ensino Superior Completo;85;Ensino Médio Completo;;Biologia;85;106;20;30;83;77;62;90;76;76;73;81;83;93;71;85
+52;17;Feminino;mais de 3 salários mínimos;Ensino Médio Completo;;Ensino Superior Completo;92;Biologia;85;107;77;27;83;73;70;70;60;80;80;90;80;80;75;85
+53;17;Feminino;de 2 a 3 salários mínimos;Ensino Médio Completo;;Ensino Médio Completo;;Português;27;22;88;85;20;90;70;80;60;80;70;70;100;80;80;80
+54;18;Masculino;de 2 a 3 salários mínimos;Ensino Médio Completo;;Ensino Médio Completo;;Português;88;97;93;83;103;95;89;85;80;95;90;100;100;95;89;100
+55;17;Masculino;de 2 a 3 salários mínimos;Ensino Médio Completo;;Ensino Superior Completo;22;Matemática;60;41;20;83;22;70;75;85;60;80;90;90;90;70;75;80
+56;18;Masculino;mais de 3 salários mínimos;Ensino Médio Completo;;Ensino Fundamental Completo;;66;41;42;44;33;;60;80;70;60;60;90;60;60;100;60;60
+57;17;Feminino;de 2 a 3 salários mínimos;;;Ensino Superior Completo;114;Português;85;95;26;103;83;97;85;97;76;76;92;82;91;83;75;100
+58;16;Feminino;;Ensino Fundamental Completo;;Ensino Fundamental Completo;;;85;19;18;;;82;86;77;62;66;92;84;85;84;71;91
+59;17;Feminino;de 1 a 2 salários mínimos;Ensino Médio Completo;;Ensino Médio Completo;;Biologia;25;29;104;;;85;65;65;75;85;95;60;75;85;40;90
+60;18;Feminino;de 1 a 2 salários mínimos;Ensino Médio Completo;;Ensino Médio Completo;;Geografia;21;26;18;;;90;83;93;78;78;100;85;95;80;78;100
+61;18;Masculino;de 1 a 2 salários mínimos;;;Ensino Superior Completo;;Sociologia;68;41;42;;;70;55;67;60;59;59;77;60;73;33;85
+62;17;Feminino;de 1 a 2 salários mínimos;Ensino Fundamental Completo;;Ensino Fundamental Completo;;Biologia;18;83;25;23;19;85;65;75;75;85;95;75;95;85;65;85
+63;18;Feminino;de 1 a 2 salários mínimos;Ensino Fundamental Completo;;Ensino Médio Completo;;Português;85;88;95;106;96;80;70;80;80;90;90;80;90;70;60;90
+64;17;Feminino;de 1 a 2 salários mínimos;Ensino Médio Completo;;Ensino Médio Completo;;Biologia;22;29;23;27;;80;80;70;60;75;80;70;90;75;60;70
+65;17;Feminino;de 2 a 3 salários mínimos;Ensino Médio Completo;;Ensino Médio Completo;;Geografia;85;83;97;96;22;90;80;80;70;70;100;80;90;100;100;100
+66;17;Masculino;mais de 3 salários mínimos;Ensino Médio Completo;22;Ensino Médio Completo;22;Português;85;103;22;;;95;70;70;80;80;90;90;90;85;80;90
+67;18;Masculino;mais de 3 salários mínimos;Ensino Médio Completo;;Ensino Médio Completo;;Biologia;17;89;97;96;;81;51;80;66;83;60;82;89;76;51;90
+68;18;Masculino;de 2 a 3 salários mínimos;Ensino Superior Completo;92;Ensino Médio Completo;85;66;76;64;55;85;69;90;85;90;75;85;80;95;95;80;75;75
+69;19;Masculino;de 1 a 2 salários mínimos;Ensino Médio Completo;;Ensino Médio Completo;;Matemática;20;41;27;83;96;87;90;85;72;62;89;90;43;65;76;88
+70;17;Feminino;de 2 a 3 salários mínimos;Ensino Médio Completo;;Ensino Médio Completo;;Biologia;32;88;19;85;27;76;78;65;60;80;90;73;79;86;60;79
+71;18;Masculino;mais de 3 salários mínimos;Ensino Superior Completo;83;Ensino Superior Completo;20;Biologia;47;17;27;77;74;97;83;99;68;81;91;92;90;85;79;88
+72;17;Feminino;de 1 a 2 salários mínimos;;;Ensino Médio Completo;;Biologia;85;28;18;19;;80;80;70;70;80;90;80;90;70;60;80
+73;17;Feminino;de 2 a 3 salários mínimos;Ensino Fundamental Completo;;Ensino Fundamental Completo;;Português;110;85;19;106;17;80;70;90;70;80;90;90;90;70;60;100
+74;17;Feminino;mais de 3 salários mínimos;;;Ensino Superior Completo;83;Português;85;33;83;27;92;85;65;85;65;70;95;75;75;85;65;75
+75;17;Feminino;de 1 a 2 salários mínimos;Ensino Médio Completo;;Ensino Médio Completo;;;33;19;23;22;114;80;80;70;60;60;70;60;70;;65;80
+76;17;Feminino;de 1 a 2 salários mínimos;Ensino Médio Completo;;Ensino Médio Completo;;Matemática;21;83;92;22;33;88;78;78;56;62;85;86;77;88;65;87
+77;17;Masculino;mais de 3 salários mínimos;Ensino Superior Completo;55;Ensino Superior Completo;104;Matemática;55;76;64;;;85;85;90;85;85;85;85;85;85;85;85
+78;17;Masculino;mais de 3 salários mínimos;Ensino Fundamental Completo;;Ensino Médio Completo;;66;60;76;55;21;64;65;88;88;78;75;83;73;83;;72;72
+79;17;Feminino;mais de 3 salários mínimos;Ensino Fundamental Completo;;Ensino Fundamental Completo;;20;20;85;83;;;67;82;59;56;57;64;66;65;78;36;60
+80;17;Feminino;de 1 a 2 salários mínimos;;;Ensino Fundamental Completo;;Português;22;27;26;;;80;85;70;90;60;95;65;75;65;95;95
+81;18;Feminino;de 1 a 2 salários mínimos;;;Ensino Fundamental Completo;;Biologia;25;88;104;;;86;69;73;64;66;80;76;76;66;53;70
+82;18;Feminino;de 1 a 2 salários mínimos;Ensino Superior Completo;;Ensino Fundamental Completo;;Biologia;22;23;75;85;77;66;60;56;50;60;73;68;70;76;50;53
+83;17;Feminino;de 1 a 2 salários mínimos;;;;;Biologia;17;77;22;;;95;86;87;71;74;73;93;82;84;72;86
+84;18;Feminino;de 1 a 2 salários mínimos;;;;;Biologia;22;92;83;88;;60;70;90;70;80;90;;90;80;70;80
+85;18;Feminino;de 1 a 2 salários mínimos;Ensino Médio Completo;;Ensino Médio Completo;;Espanhol;83;92;104;;;70;30;70;45;65;65;55;65;80;45;81
+86;17;Feminino;mais de 3 salários mínimos;Ensino Superior Completo;83;Ensino Superior Completo;22;Biologia;21;25;74;;;93;83;85;94;99;70;83;86;84;74;79
+87;17;Masculino;mais de 3 salários mínimos;Ensino Médio Completo;;Ensino Superior Completo;22;História;85;93;97;95;83;90;70;80;70;80;100;90;90;100;70;70
+88;19;Masculino;de 2 a 3 salários mínimos;Ensino Médio Completo;;Ensino Médio Completo;;História;60;85;106;104;20;70;70;80;80;70;90;80;80;80;60;70
+89;17;Feminino;de 1 a 2 salários mínimos;;;;;Matemática;66;17;85;;;75;85;95;65;65;95;95;75;65;65;85
+90;17;Masculino;de 1 a 2 salários mínimos;;;Ensino Médio Completo;;Matemática;60;55;53;41;76;65;80;90;65;70;95;78;65;70;60;60
+91;17;Feminino;de 2 a 3 salários mínimos;Ensino Médio Completo;;Ensino Médio Completo;;Geografia;106;85;92;104;;80;70;80;70;90;90;90;90;70;90;90
+92;17;Masculino;de 2 a 3 salários mínimos;Ensino Superior Completo;41;Ensino Médio Completo;;Português;85;88;19;;;93;79;69;69;74;84;80;71;82;59;92
+93;17;Feminino;mais de 3 salários mínimos;Ensino Superior Completo;60;Ensino Superior Completo;83;História;85;21;47;27;60;80;70;70;80;80;90;90;90;90;70;80
+94;17;Masculino;de 1 a 2 salários mínimos;Ensino Médio Completo;;Ensino Médio Completo;;Inglês;101;17;77;;;60;70;79;60;60;98;70;70;70;70;60
+95;18;Feminino;de 2 a 3 salários mínimos;Ensino Médio Completo;;Ensino Médio Completo;;Biologia;27;22;17;;;60;;60;60;60;80;70;70;80;70;70
+96;18;Feminino;mais de 3 salários mínimos;Ensino Médio Completo;;Ensino Médio Completo;;História;85;93;83;97;;80;70;70;80;80;90;90;90;100;90;90
+97;17;Masculino;de 1 a 2 salários mínimos;Ensino Médio Completo;;Ensino Médio Completo;;Matemática;47;46;42;32;;83;72;77;75;67;95;88;69;70;93;96
+98;16;Masculino;mais de 3 salários mínimos;Ensino Superior Completo;77;Ensino Médio Completo;;Matemática;42;41;46;;;70;80;90;80;50;80;60;60;70;90;99
+99;18;Masculino;mais de 3 salários mínimos;Ensino Superior Completo;55;Ensino Superior Completo;22;66;64;60;49;;;75;85;80;85;80;95;70;80;80;90;80
+100;17;Masculino;de 2 a 3 salários mínimos;Ensino Superior Completo;87;Ensino Superior Completo;83;Química;74;73;27;;;60;55;70;80;60;100;60;70;70;80;70
+101;18;Feminino;mais de 3 salários mínimos;Ensino Superior Completo;27;Ensino Superior Completo;94;Português;103;26;42;47;;100;60;70;70;60;100;90;80;90;90;100
+102;17;Masculino;mais de 3 salários mínimos;Ensino Superior Completo;55;Ensino Superior Completo;83;Matemática;42;55;112;77;49;65;75;80;80;65;85;85;70;65;90;80
+103;17;Feminino;de 1 a 2 salários mínimos;Ensino Superior Completo;;Ensino Médio Completo;;Biologia;85;83;77;27;33;80;70;60;80;75;90;90;85;75;85;95
+104;18;Masculino;mais de 3 salários mínimos;Ensino Médio Completo;;Ensino Médio Completo;;Português;85;19;26;77;83;70;65;70;85;65;90;80;85;69;100;90
+105;17;Masculino;de 2 a 3 salários mínimos;Ensino Médio Completo;;Ensino Médio Completo;;;27;21;60;76;20;64;72;73;83;63;73;72;95;65;95;74
+106;18;Masculino;mais de 3 salários mínimos;Ensino Médio Completo;;Ensino Médio Completo;;Matemática;43;76;41;46;;65;78;80;70;59;90;80;75;85;90;80
+107;17;Masculino;de 1 a 2 salários mínimos;Ensino Médio Completo;;Ensino Médio Completo;;;55;27;21;76;83;99;79;89;92;93;94;91;83;100;100;100
+108;17;Masculino;mais de 3 salários mínimos;Ensino Superior Completo;85;Ensino Superior Completo;83;66;55;49;42;103;20;80;80;70;70;70;70;80;80;60;80;80
+109;16;Masculino;mais de 3 salários mínimos;Ensino Médio Completo;;Ensino Fundamental Completo;;Química;77;74;47;;;80;70;70;90;70;90;70;70;90;80;80
+110;18;Masculino;mais de 3 salários mínimos;Ensino Médio Completo;;Ensino Médio Completo;;Português;85;27;47;;;65;50;55;68;60;85;80;80;90;90;80
+111;20;Masculino;de 1 a 2 salários mínimos;Ensino Médio Completo;;Ensino Fundamental Completo;;20;68;83;20;41;101;65;73;60;71;82;71;71;60;68;69;73
+112;17;Feminino;mais de 3 salários mínimos;Ensino Superior Completo;;Ensino Superior Completo;106;Biologia;27;85;21;77;;80;70;70;80;80;80;70;80;70;90;80
+113;17;Feminino;de 1 a 2 salários mínimos;;;;;;27;85;92;83;22;85;30;90;15;70;;80;80;60;70;70
+114;18;Masculino;de 1 a 2 salários mínimos;;;;;Matemática;55;42;60;101;41;80;75;90;70;95;75;75;65;100;95;90
+115;19;Masculino;de 1 a 2 salários mínimos;Ensino Médio Completo;;Ensino Superior Completo;33;Matemática;68;83;76;55;;70;70;80;68;71;;70;75;90;72;71
+116;26;Feminino;menos de 1 salário mínimo;Ensino Fundamental Completo;;Ensino Fundamental Completo;;;104;20;33;26;;70;70;90;75;98;;80;95;100;100;100
+117;23;Masculino;de 1 a 2 salários mínimos;Ensino Médio Completo;;Ensino Médio Completo;;Química;106;22;32;41;118;60;75;81;80;78;;80;85;82;100;100
+118;19;Masculino;de 2 a 3 salários mínimos;Ensino Superior Completo;20;Ensino Superior Completo;104;História;87;103;92;85;106;80;70;70;70;80;100;90;90;100;100;100
+119;18;Masculino;de 2 a 3 salários mínimos;Ensino Médio Completo;;Ensino Médio Completo;;Matemática;27;22;20;69;;80;60;80;50;70;;70;100;90;100;100
+120;18;Feminino;de 1 a 2 salários mínimos;Ensino Médio Completo;;Ensino Médio Completo;;105;106;85;22;21;;80;50;70;40;80;;80;100;80;90;90

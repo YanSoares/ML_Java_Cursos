@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;ModuloFree&apos;" deleteContents="true" description="Delete resource &apos;ModuloFree&apos;" element1="/ModuloFree" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1508895570660"/>
+</session>

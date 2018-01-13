@@ -1,0 +1,197 @@
+		for (int i = 0; i < 5; i++) {
+			System.out.printf(cursosVizinhos.get(i).toString());
+			System.out.printf("\t");
+		}	
+		System.out.println("\n");
+		for (int i = 5; i < 10; i++) {
+			System.out.printf(cursosVizinhos.get(i).toString());
+			System.out.printf("\t");
+		}
+		System.out.println("\n");
+		for (int i = 10; i < 15; i++) {
+			System.out.printf(cursosVizinhos.get(i).toString());
+			System.out.printf("\t");
+		}			
+		
+		
+		
+		System.out.println("antes");
+		for (int i = 0; i < lista.size(); i++) {
+			System.out.printf(lista.get(i).toString());
+			System.out.printf("\t");
+		}	
+		System.out.println("");		
+		System.out.println("antes");
+		for (int i = 0; i < listaOrdenada.size(); i++) {
+			System.out.printf(listaOrdenada.get(i).toString());
+			System.out.printf("\t");
+		}	
+		System.out.println("");
+		
+		
+		
+		
+		
+		System.out.println("depois");
+		for (int i = 0; i < listaOrdenada.size(); i++) {
+			System.out.printf(listaOrdenada.get(i).toString());
+			System.out.printf("\t");
+		}	
+		System.out.println("\n\n");
+		
+		
+		
+		for (int i = 0; i < 5; i++) {
+			System.out.printf(cursosVizinhos.get(i).toString());
+			System.out.printf("\t");
+		}
+		System.out.println("\n");
+		for (int i = 5; i < 10; i++) {
+			System.out.printf(cursosVizinhos.get(i).toString());
+			System.out.printf("\t");
+		}
+		System.out.println("\n");
+		for (int i = 10; i < 15; i++) {
+			System.out.printf(cursosVizinhos.get(i).toString());
+			System.out.printf("\t");
+		}
+		System.out.println("\n");
+		for (int i = 15; i < 20; i++) {
+			System.out.printf(cursosVizinhos.get(i).toString());
+			System.out.printf("\t");
+		}
+		System.out.println("\n");
+		for (int i = 20; i < 25; i++) {
+			System.out.printf(cursosVizinhos.get(i).toString());
+			System.out.printf("\t");
+		}
+		System.out.println("\n");
+		
+		
+		
+		
+		/*
+		System.out.println("USUARIO: " + usuario);
+		System.out.println("CURSOS USUARIO");
+		for (int i = 0; i < cursosUsuario.size(); i++) {
+			System.out.println(cursosUsuario.get(i) + " - " + c.NomeCursos(cursosUsuario.get(i)));
+		}
+
+		System.out.println("\nCURSOS RECOMENDADOS");
+		for (int i = 0; i < cursosSistema.size(); i++) {
+			System.out.println(cursosSistema.get(i) + " - " + c.NomeCursos(cursosSistema.get(i)));
+		}
+		 */
+		 
+		 
+		 /*
+		nDCG
+		ndcg = NDCG.calculateNDCG(cursosUsuario, cursosSistema);
+		System.out.println("ndcg" + ndcg);
+				
+		ndcg = NDCG.calculateNDCG(realteste,sistemateste);
+		System.out.println("ndcg: " + ndcg);
+		*/	
+
+		/*System.out.println("\nP@1 = " + P1 + "\nP@3 = " + P3 + "\nP@5 = " + P5 + "\nP@1 em 5 = " + P1em5
+				+ "\nP@3 em 5 = " + P3em5 + "\nRecall = " + recall + "\nF1 = " + f1 + "\nAP@5 = " + ap5);
+		 */
+		
+		
+		
+		
+22,12,16
+22,13,36
+
+
+
+
+
+
+
+
+
+
+
+
+int escolha = Integer
+				.parseInt(JOptionPane.showInputDialog(null, "Digite a Opcao:\n1-Analise\n2-Simulacao do Sistema"));
+
+		switch (escolha) {
+		case 1:
+
+			/*int tecnica = Integer.parseInt(JOptionPane.showInputDialog(null,
+					"Digite a Técnica à Utilizar:\n1-Pearson\n2-Spearman\n3-Tanimoto\n4-Euclidean\n5-City Block"));
+					*/
+			
+			for(int t=0;t<5;t++) {			
+			
+			for (int h = 1; h < model.getNumUsers(); h++) {
+				resultadoFinal = calcula(qtdVizinhos, qtdCursos, listaCursosRecomendados, listaCursosUsuario, model, s,
+						tecnica, h);
+
+				contP1 += resultadoFinal.get(0);
+				contP3 += resultadoFinal.get(1);
+				contP5 += resultadoFinal.get(2);
+				contP1em5 += resultadoFinal.get(3);
+				contP3em5 += resultadoFinal.get(4);
+				contrecall += resultadoFinal.get(5);
+				contf1 += resultadoFinal.get(6);
+				contap5 += resultadoFinal.get(7);
+
+				listaCursosRecomendados = new ArrayList<Integer>();
+				listaCursosUsuario = new ArrayList<Integer>();
+				cursosVizinhos = new ArrayList<Integer>();
+				resultadoCursos = new ArrayList<Integer>();
+				resultadoFinal = new ArrayList<Double>();
+				
+				ArrayList<Double> listaPearson = new ArrayList<Double>();
+				listaPearson.add((contP1 / model.getNumUsers()));
+				listaPearson.add(contP3 / model.getNumUsers());
+				listaPearson.add(contP5 / model.getNumUsers());
+				listaPearson.add(contP1em5 / model.getNumUsers());
+				listaPearson.add(contP3em5 / model.getNumUsers());
+				listaPearson.add(contrecall / model.getNumUsers());
+				listaPearson.add(contf1 / model.getNumUsers());
+				listaPearson.add(contap5 / model.getNumUsers());
+				
+			}
+			
+			}
+
+			System.out.println("QUANTIDADE DE ALUNOS NA BASE: " + model.getNumUsers());
+			if (tecnica == 1) {
+				System.out.println("TÉCNICA UTILIZADA: COEFICIENTE DE PEARSON");
+			}
+			if (tecnica == 2) {
+				System.out.println("TÉCNICA UTILIZADA: COEFICIENTE DE SPEARMAN");
+			}
+
+			if (tecnica == 3) {
+				System.out.println("TÉCNICA UTILIZADA: COEFICIENTE DE TANIMOTO");
+			}
+			if (tecnica == 4) {
+				System.out.println("TÉCNICA UTILIZADA: DISTÂNCIA EUCLIDIANA");
+			}
+			if (tecnica == 5) {
+				System.out.println("TÉCNICA UTILIZADA: CITY BLOCK");
+			}
+			System.out.println("Médias: ");
+			System.out.println("P@1: " + contP1 / model.getNumUsers());
+			System.out.println("P@3: " + contP3 / model.getNumUsers());
+			System.out.println("P@5: " + contP5 / model.getNumUsers());
+			System.out.println("P1EM5: " + contP1em5 / model.getNumUsers());
+			System.out.println("P3EM5 5: " + contP3em5 / model.getNumUsers());
+			System.out.println("RECALL: " + contrecall / model.getNumUsers());
+			System.out.println("F1: " + contf1 / model.getNumUsers());
+			System.out.println("AP@5: " + contap5 / model.getNumUsers());
+			
+			
+			final MeuPrimeiroGrafico demo = new MeuPrimeiroGrafico("Bar Chart Demo");
+	        demo.pack();
+	        RefineryUtilities.centerFrameOnScreen(demo);
+	        demo.setVisible(true);
+	        
+			break;
+		
+		

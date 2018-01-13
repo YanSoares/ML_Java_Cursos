@@ -1,0 +1,8 @@
+1508100451997	Extract method 'calcula'
+1508115903154	Extract method 'f1'
+1508116027620	Delete element
+1508378506323	Delete element
+1508378618006	Extract local variable 'idiniciocurso'
+1508378631329	Extract local variable 'idfimcurso'
+1508378988135	Delete element
+1508380897633	Rename local variable 'h'

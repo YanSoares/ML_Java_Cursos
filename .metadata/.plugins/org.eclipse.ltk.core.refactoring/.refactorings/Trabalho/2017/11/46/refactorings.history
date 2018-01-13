@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 7 elements from project &apos;Trabalho&apos;&#x0D;&#x0A;- Original project: &apos;Trabalho&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     resultados22alunos.png&#x0D;&#x0A;     resultados46alunos.png&#x0D;&#x0A;     resultados79alunos.png&#x0D;&#x0A;     resultados99alunos.png&#x0D;&#x0A;     resultados99alunosantigo.png&#x0D;&#x0A;     resultados99alunoscomidade.png&#x0D;&#x0A;     resultados99alunossemidade.png" description="Delete elements" element1="resultados46alunos.png" element2="resultados22alunos.png" element3="resultados79alunos.png" element4="resultados99alunossemidade.png" element5="resultados99alunos.png" element6="resultados99alunosantigo.png" element7="resultados99alunoscomidade.png" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="7" stamp="1510625620644" subPackages="false" version="1.0"/>
+</session>

@@ -1,0 +1,118 @@
+package br.com.yrsoares;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+import br.com.yrsoares.comparadores.ComparadorDeFrequenciaDeCursos;
+
+public class FiltragemCursos {
+
+	public int count;
+	public int id;
+
+	// cria a lista do resultado final
+	public ArrayList<Integer> resultado = new ArrayList<Integer>();
+	// criar o array de frequencia de cursos (count e id do curso)
+	public ArrayList<FiltragemCursos> frequenciaCursos = new ArrayList<FiltragemCursos>();
+
+	public ArrayList<Integer> filtraCursos(ArrayList<Integer> lista, int qtdCursos, int qtdVizinhos, int tipoGrafico) {
+
+		// ordena a lista frequenciaCursos por frequencia que cada curso aparece
+		// na lista
+		ordenaListaFrequencia(lista);
+
+		// recomenda os cursos com mais frequencia
+		for (int i = 0; i < frequenciaCursos.size(); i++) {
+			if (frequenciaCursos.get(i).getCount() > 1) {
+				resultado.add(frequenciaCursos.get(i).getId());
+			}
+			if (resultado.size() == qtdCursos) {
+				return resultado;
+			}
+		}
+				
+		if (tipoGrafico == 1) {
+			int contgraficoarea=0;
+			while (resultado.size() != qtdCursos) {
+				resultado.add(frequenciaCursos.get(contgraficoarea).getId());
+				contgraficoarea++;
+				if(frequenciaCursos.size()==contgraficoarea) {
+					contgraficoarea=0;
+				}
+				
+			}
+		}
+
+		if (tipoGrafico == 2) {
+			// se o array resultado nao estiver cheio (com os 5 cursos recomendados)
+			// recomenda o restante pegando as primeiras opcoes de curso de cada
+			// usuario
+			int posCursoOrdem = 0;
+			while (resultado.size() != qtdCursos) {
+				if (resultado.contains(lista.get(posCursoOrdem))) {
+					posCursoOrdem++;
+				} else {
+					resultado.add(lista.get(posCursoOrdem));
+				}
+			}
+		}
+		
+		if (tipoGrafico == 3) {
+			resultado.clear();					
+			resultado.add(85);
+			resultado.add(27);
+			resultado.add(83);
+			resultado.add(22);
+			resultado.add(97);
+			}
+		
+		return resultado;
+	}
+
+	private void ordenaListaFrequencia(ArrayList<Integer> lista) {
+		// verifica a frequencia de aparicoes de um curso e joga pra lista
+		// frequenciaCursos
+		for (int i = 0; i < lista.size(); i++) {
+			FiltragemCursos f = new FiltragemCursos();
+			int count = Collections.frequency(lista, lista.get(i));
+			f.setCount(count);
+			f.setId(lista.get(i));
+			frequenciaCursos.add(f);
+		}
+		// remove as instancias duplicadas
+		for (int i = 0; i < frequenciaCursos.size(); i++) {
+			FiltragemCursos f1 = frequenciaCursos.get(i);
+			for (int j = i + 1; j < frequenciaCursos.size(); j++) {
+				FiltragemCursos f2 = frequenciaCursos.get(j);
+				if (f1.getId() == f2.getId()) {
+					frequenciaCursos.remove(j);
+					j--;
+				}
+			}
+		}
+		// ordena a lista por quantidade de aparicoes
+		Collections.sort(frequenciaCursos, new ComparadorDeFrequenciaDeCursos());
+	}
+
+	public int getCount() {
+		return count;
+	}
+
+	public void setCount(int count) {
+		this.count = count;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	@Override
+	public String toString() {
+		return "FiltragemCursos [count=" + count + ", id=" + id + "]";
+	}
+
+}
